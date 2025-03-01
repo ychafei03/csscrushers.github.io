@@ -1,0 +1,169 @@
+/* General Styles */
+.body-class {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Light grey background */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header */
+.header-class {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation Bar */
+.nav-class {
+    background-color: #333; /* Dark background */
+    text-align: center;
+    padding: 10px;
+}
+
+.nav-class a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.nav-class a:hover {
+    text-decoration: underline;
+}
+
+.nav-class a.active {
+    font-weight: bold; /* Active page bold */
+}
+
+/* Section Titles */
+.section-title-class {
+    color: #FF5722; /* Orange section titles */
+    text-align: center;
+}
+
+/* Main Title */
+.title-class {
+    color: #2196F3; /* Blue title */
+    text-align: center;
+    font-size: 28px;
+}
+
+/* Text */
+.text-class {
+    color: #555; /* Dark grey for readability */
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Images */
+.image-class {
+    border: 3px solid #4CAF50; /* Green border */
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
+}
+
+/* Testimonials */
+.blockquote-class {
+    background-color: #ffffff;
+    padding: 15px;
+    border-left: 5px solid #4CAF50;
+    margin: 10px;
+    font-style: italic;
+    text-align: center;
+}
+
+.cite-class {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+/* FAQ */
+.faq-section-class {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.faq-question-class {
+    color: #2196F3;
+    font-weight: bold;
+}
+
+/* Form Styling */
+.form-class {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.label-class {
+    display: block;
+    color: #4CAF50; /* Green labels */
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-class {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #4CAF50;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+.button-class {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.button-class:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+.footer-class {
+    background-color: #333; /* Dark footer */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .nav-class {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .nav-class a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .image-class {
+        width: 100%;
+    }
+}
